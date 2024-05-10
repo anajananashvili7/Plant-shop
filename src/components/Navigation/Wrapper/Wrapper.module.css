@@ -1,0 +1,33 @@
+.wrapper {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    pointer-events: none;
+    visibility: hidden;
+    z-index: -100;
+}
+
+.wrapper.open {
+    visibility: visible;
+    pointer-events: auto;
+    z-index: unset
+}
+
+.wrapper.open .container {
+    right: 0;
+}
+
+.container {
+    height: 100%;
+    width: 250px;
+    background-color: #0F6845;
+    position: absolute;
+    right: -250%;
+    top: 0;
+    transition: right 0.5s linear;
+    z-index: 10;
+}
+

@@ -1,0 +1,10 @@
+.wrapper {
+    height: 50vh;
+    overflow-y: scroll;
+    width: max-content;
+}
+
+.container {
+    border: 1px solid green;
+
+}

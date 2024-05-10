@@ -1,0 +1,78 @@
+
+
+.button33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 10px;
+}
+
+.button33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.Input {
+    border-radius: 8px;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(176, 242, 176);
+    border: 3px solid green;
+   
+}
+
+.title {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: green;
+    padding-bottom: 20px;
+}
+
+
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.inputRow {
+  display: flex;
+  align-items: center;
+}
+
+.Input {
+  margin-right: 10px; 
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+.errorMessage {
+  color: red;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
